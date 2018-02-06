@@ -97,4 +97,11 @@ router.post('/api/v1/todos', (req, res, next) => {
   });
 });
 
+router.put('/api/v1/todos/:id', (req, res, next) => {
+  const results = [];
+
+  //grab data from params
+  const id = req.params.id;
+});
+
 module.exports = router;
